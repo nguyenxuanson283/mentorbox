@@ -279,6 +279,7 @@ footer li:first-child{
     text-transform: uppercase;
     font-size: 28px;
 }
+.button-menu-nav{display: none;}
 @media screen and (min-width:1281px) and (max-width:1366px) {
     .form-the-best__content{
         font-size: 23px;
@@ -302,6 +303,21 @@ footer li:first-child{
     }
     .form-the-best__content{
         font-size: 19px;
+    }
+    .the-smarter-way__tittle{
+        font-size: 28px;
+    }
+    .explore-topic{
+        height: 330px;
+    }
+    .the-smarter-way__content{
+        font-size: 15px;
+    }
+    .explore-topic__content{
+        font-size: 15px;
+    }
+    .explore-mentors{
+        height: 330px;
     }
 }
 @media screen and (min-width:769px) and (max-width:1024px){
@@ -381,5 +397,257 @@ footer li:first-child{
     }
     .background a img {
         width: 45%;
+    }
+}
+@media screen and (min-width:681px) and (max-width:768px){
+    .explore-mentors_item{
+        flex-wrap: wrap;
+        overflow: hidden;
+        height: 295px;
+    }
+    .explore-topic_item{
+        flex-wrap: wrap;
+        overflow: hidden;
+        height: 300px;
+    }
+    .explore-topic_item a{
+        width: calc(100% / 2);
+    }
+    .explore-mentors_item a{
+        width: calc(100% / 2);
+    }
+    .mentorbox{
+        grid-column: 1 / 7;
+    }
+    .mentorbox li a {
+        font-size: 12px;
+    }
+    .background a img{
+        display: none;
+    }
+    .button-header li a{
+        font-size: 12px;
+    }
+    .button-header {
+        justify-content: space-between;
+    }
+    .button-header li button{
+        width: 55px;
+        height: 29px;
+    }
+    .form-the-best__title{
+        font-size:35px
+    }
+    .form-the-best__content{
+        font-size: 13px;
+    }
+    .form-the-best__button button{
+        width: 125px;
+        height: 40px;
+    }
+    .header{
+        grid-template-rows:repeat(4, 1fr);
+        height: 400px;
+    }
+    .form-the-best{
+        height: 208px;
+        grid-row: 3 /4;
+    }
+    .background{
+        height: 400px;
+    }
+    .the-smarter-way__tittle{
+        font-size: 20px;
+    }
+    .the-smarter-way__content{
+        font-size: 13px;
+        line-height: 16px;
+    }
+    .the-smarter-way{
+        height: 246px;
+    }
+    .explore-topic__title{
+        font-size: 20px;
+    }
+    .explore-topic__content{
+        grid-column: 1 / 6;
+        font-size: 15px;
+    }
+    .explore-mentors__title{
+        font-size: 20px;
+    }
+    .explore-mentors__content{
+        font-size: 15px;
+    }
+    .title-carousel{
+        font-size: 20px;
+    }
+    .content-carousel {
+        font-size: 15px;
+    }
+    .background-carousel{
+        height: 200px;
+    }
+    .back-button-carousel img , .front-button-carousel img{
+        width: 75%;
+    }
+    .content-lets-get-learning{
+        font-size: 20px;
+    }
+    .button-lets-get-learning button{
+        width: 200px;
+        height: 55px;
+    }
+    .lets-get-learning{
+        height: 150px;
+    }
+    footer{
+        height: 120px;
+    }
+    footer nav ul {
+        width: 85%;
+    }
+    .product-item{
+        padding: 0 27px 0 60px;
+        height: 940px;
+    }
+    .explore-topic_item img{
+        margin: auto;
+        display: block;
+    }
+    .explore-mentors_item img{
+        margin: auto;
+        display: block;
+    }
+}
+@media screen and (min-width:481px) and (max-width:680px) {
+    .explore-topic_item{
+        flex-wrap: wrap;
+        overflow: hidden;
+        width: 400px;
+        height: 300px;
+        grid-column: 2 / 5;
+    }
+    .explore-topic_item img{
+        width: 100%;
+    }
+    .explore-mentors_item{
+        flex-wrap: wrap;
+        overflow: hidden;
+        width: 400px;
+        height: 300px;
+        grid-column: 2 / 5;
+    }
+    .explore-mentors_item img{
+        width: 100%;
+    }
+    .front-button{
+        right: 20px;
+    }
+    .background a img{
+        display: none;
+    }
+    .form-the-best__title{
+        font-size: 25px;
+        text-align: center;
+    }
+    .form-the-best__content{
+        font-size: 15px;
+        text-align: center;
+        margin-top: 5%;
+    }
+    .form-the-best__button {
+        text-align: center;
+    }
+    .background{
+        height: 450px;
+    }
+    .header{
+        height: 450px;
+        width: 100%;
+    }
+    .form-the-best__button button {
+        width: 130px;
+        height: 45px;
+    }
+    .form-the-best{
+        grid-column: 1 / 7;
+        display: block;
+    }
+    .header nav{
+        display: none;
+    }
+    .button-menu-nav{
+        display: block;
+        grid-column: 1 / 7;
+        position: relative;
+    }
+    .button-menu-nav button{
+        border: none;
+    }
+    .button-menu-nav i{
+        font-size: 30px;
+        width: 60px;
+    } 
+    .sidebar-mobile{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo-header{
+        font-size: 30px;
+        color: white;
+        text-transform: uppercase;
+    }
+    .mobile-nav{
+        z-index: 999;
+        position: absolute;
+    }
+    .mobile-sidebars{
+        display: none;
+        position: absolute;
+        height: 400px;
+        background-color: #131323;
+        z-index: 2;
+        width: 200px;
+        opacity: 0.9;
+    }
+    .mobile-sidebars li{
+        height: 30px;
+        border-bottom: 1px solid #969696;
+        text-align: center;
+        line-height: 30px;
+    }
+    .mobile-nav ul li:hover a{
+        color: blue;
+    }
+    .mobile-login{
+        display: none;
+        position: absolute;
+        right: 0;
+    }
+    .button-header-mobile{
+        display: block;
+        width: 60px;
+        text-align: center;
+    }
+    .button-header-mobile li {
+        height: 33px;
+        line-height: 33px;
+        border: 1px solid white;
+        font-size: 12px;
+        border-radius: 5px;
+    }
+    .button-header-mobile li:hover{
+        background: #FE5030;
+    }
+    .content-lets-get-learning{
+        font-size: 18px;
+    }
+    .form-the-best__button{
+        margin-top: 5%;
+    }
+    footer nav ul{
+        width: 85%;
     }
 }
